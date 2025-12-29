@@ -20,5 +20,7 @@
 include:
   - board: nrf52840dk_nrf52840
     shield: ergo_s1_oe_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nrf52840dk_nrf52840
     shield: ergo_s1_oe_right
